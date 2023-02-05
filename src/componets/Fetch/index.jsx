@@ -16,9 +16,9 @@ export const Fetches = () => {
           <>
             <div key={v.id} style={{ display: "flex" }}>
               {" "}
-              <h1 style={{margin:"0 11px"}}>{v.id}</h1>
-              <h1 style={{margin:"0 11px"}}>{v.name}</h1>
-              <h1 style={{margin:"0 11px"}}>{v.website}</h1>
+              <h1 style={{margin:"0 10px"}}>{v.id}</h1>
+              <h1 style={{margin:"0 10px"}}>{v.name}</h1>
+              <h1 style={{margin:"0 10px"}}>{v.website}</h1>
             </div>
           </>
         );
